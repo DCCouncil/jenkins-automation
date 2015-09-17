@@ -1,0 +1,7 @@
+# http://docs.ansible.com/playbooks_roles.html#playbook-roles-and-include-statements
+
+- hosts:
+    - vagrant
+  gather_facts: no
+  roles:
+    - {role: jenkins, sudo: yes}

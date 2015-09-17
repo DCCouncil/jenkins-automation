@@ -1,0 +1,10 @@
+---
+plugins:
+  - job-dsl
+  - build-flow-plugin
+  - envinject
+  - git
+  - multiple-scms
+  - nodejs
+port: 8080
+prefix: '/build'
